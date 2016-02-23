@@ -1,0 +1,46 @@
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Assets\ApplicationIcon.png
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Collage Maker.dll
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Collage Maker.pdb
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\AppManifest.xaml
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\Collage_Maker_Debug_AnyCPU.xap
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\App.g.cs
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\MainPage.g.cs
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\Collage Maker.g.resources
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\Collage_Maker.Resources.AppResources.resources
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\Collage Maker.csproj.GenerateResource.Cache
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\Collage Maker.dll
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\Collage Maker.pdb
+c:\users\suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\XapCacheFile.xml
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\RateMyApp.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\ar-SA\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\de-DE\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\en-GB\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\en-US\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\es-ES\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\fi-FI\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\fr-FR\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\he-IL\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\hr-HR\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\hu-HU\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\it-IT\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\lt-LT\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\nb-NO\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\nl-NL\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\pl-PL\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\pt-BR\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\pt-PT\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\ro-RO\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\ru-RU\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\sl-SI\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\sv-SE\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\uk-UA\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\vi-VN\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\Bin\Debug\zh-CN\RateMyApp.resources.dll
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\About.g.cs
+C:\Users\Suraj\documents\visual studio 2013\Projects\Collage Maker\Collage Maker\obj\Debug\Collage Maker.csprojResolveAssemblyReference.cache

@@ -1,0 +1,86 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Collage_Maker.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ctrl="clr-namespace:RateMyApp.Controls;assembly=RateMyApp"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape"  Orientation="Landscape"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <TextBlock Text="Collage Maker" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+        <phone:Pivot x:Name="pivotControl" Margin="10,10,10,10" Title="">
+            <phone:PivotItem CacheMode="{x:Null}" Header="Select Background" Margin="0,-105,0,0">
+                <Grid x:Name="ContentPanel" Margin="-10,118,34,1" Grid.RowSpan="2">
+                    <Button x:Name="bg1" HorizontalAlignment="Left" Height="168" Margin="0,10,0,0" VerticalAlignment="Top" Width="168" Click="bg1_Click">
+                        <Image x:Name="image1" Source="backgrounds/1.jpg" Stretch="Fill" />
+                    </Button>
+                    <Button x:Name="bg2" HorizontalAlignment="Left" Height="168" Margin="0,183,0,0" VerticalAlignment="Top" Width="168" Click="bg2_Click">
+                        <Image x:Name="image2" Source="backgrounds/2.jpg" Stretch="Fill" />
+                    </Button>
+                    <Button x:Name="bg3" HorizontalAlignment="Left" Height="168" Margin="168,10,0,0" VerticalAlignment="Top" Width="168" Click="bg3_Click">
+                        <Image x:Name="image3" Source="backgrounds/3.jpg" Stretch="Fill" />
+                    </Button>
+                    <Button x:Name="bg4" HorizontalAlignment="Left" Height="168" Margin="168,183,0,0" VerticalAlignment="Top" Width="168" Click="bg4_Click">
+                        <Image x:Name="image4" Source="backgrounds/4.jpg" Stretch="Fill" />
+                    </Button>
+                    <Button x:Name="bg5" HorizontalAlignment="Left" Height="168" Margin="336,10,0,0" VerticalAlignment="Top" Width="168" Click="bg5_Click">
+                        <Image x:Name="image5" Source="backgrounds/5.jpg" Stretch="Fill" />
+                    </Button>
+                    <Button x:Name="bg6" HorizontalAlignment="Left" Height="168" Margin="336,183,0,0" VerticalAlignment="Top" Width="168" Click="bg6_Click">
+                        <Image x:Name="image6" Source="backgrounds/6.jpg" Stretch="Fill" />
+                    </Button>
+                    <Button x:Name="bg7" HorizontalAlignment="Left" Height="168" Margin="504,10,0,0" VerticalAlignment="Top" Width="168" Click="bg7_Click">
+                        <Image x:Name="image7" Source="backgrounds/7.jpg" Stretch="Fill" />
+                    </Button>
+                    <Button x:Name="Gallery" Content="Select From &#xA;    Gallery" FontSize="20" HorizontalAlignment="Left" Margin="504,232,0,0" VerticalAlignment="Top" Width="168" Height="96" Click="Gallery_Click"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem x:Name="Collage" CacheMode="{x:Null}" Header="Add Pictures" Margin="0,-105,0,0">
+                <Grid Margin="0,109,0,0">
+                    <Canvas x:Name="CollageCanvas" Height="361" Margin="0,1,67,-1" Tap="CollageCanvas_Tap" >
+                        <Image x:Name="background" Stretch="Fill" HorizontalAlignment="Left" Height="341" VerticalAlignment="Top" Width="621" Canvas.Left="10" Canvas.Top="9"/>
+                    </Canvas>
+                    <!--Button x:Name="AddImage" Content="+" Margin="641,143,0,143" Click="AddImage_Click" /-->
+                </Grid>
+            </phone:PivotItem>
+        </phone:Pivot>
+
+        <ctrl:FeedbackOverlay x:Name="FeedbackOverlay"
+                             Grid.RowSpan="2"
+                             FeedbackTo="smartsuri09@gmail.com"
+                             ApplicationName="Collage Maker"
+                              CompanyName="Suraj Patel"/>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" Opacity="0.7" BackgroundColor="#FF002EFF" IsMenuEnabled="True" Mode="Minimized">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem IsEnabled="True" Text="Small size" x:Name="small" Click="small_Click" />
+                <shell:ApplicationBarMenuItem IsEnabled="True" Text="Medium size" x:Name="medium" Click="medium_Click" />
+                <shell:ApplicationBarMenuItem IsEnabled="True" Text="Large size" x:Name="large" Click="large_Click" />
+                <shell:ApplicationBarMenuItem IsEnabled="True" Text="Very Large size" x:Name="VeryLarge" Click="VeryLarge_Click" />
+                <shell:ApplicationBarMenuItem IsEnabled="True" Text="about" x:Name="about" Click="about_Click" />
+            </shell:ApplicationBar.MenuItems>
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/save.png" x:Name="SaveButton" IsEnabled="False" Click="SaveButton_Click" Text="Save"/>
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/add.png" Text="Select" x:Name="SelectButton" IsEnabled="False" Click="AddImage_Click" />
+            <shell:ApplicationBarIconButton x:Name="undo" Click="undo_Click"  IconUri="/Assets/AppBar/back.png" IsEnabled="False" Text="Undo"/>
+
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+</phone:PhoneApplicationPage>
